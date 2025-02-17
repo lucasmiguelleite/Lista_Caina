@@ -35,7 +35,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start(( Início )) --> firstInput[\ Digite sua Nota \]
       firstInput --> secondInput[\ Digite a sua Frequência \]
-      secondInput --> verification{ Nota >= 50? \nE\n Frequência >= 75%? }
+      secondInput --> verification{" Nota >= 50? \nE\n Frequência >= 75%? "}
       verification --> |Sim| A[/ Aprovado /]
       verification --> |Não| B[/ Reprovado /]
       A --> finish([ Fim ])
@@ -143,5 +143,22 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-      I["Sua resposta aqui!"]
+      start(( Início )) --> input[\" Digite n (Número maior que zero) "\]
+      input --> if{ n > 0? }
+      if --> | Sim | A[
+         valor = 1
+         divisor = 0
+      ]
+      if --> | Não | input
+      A --> if2{ n % valor == 0? }
+      if2 --> | Sim | B[ divisor = divisor + 1 ]
+      if2 --> | Não | C[ valor = valor + 1 ]
+      B --> C
+      C --> if3{ valor <= n }
+      if3 --> | Sim | if2
+      if3 --> | Não | if4{ divisor == 2 }
+      if4 --> | Sim | D[/ É primo /]
+      if4 --> | Não | E[/ Não é primo /]
+      D --> finish
+      E --> finish
    ```
