@@ -35,7 +35,11 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start(( Início )) --> firstInput[\ Digite sua Nota \]
       firstInput --> secondInput[\ Digite a sua Frequência \]
-      secondInput --> verification{" Nota >= 50? \nE\n Frequência >= 75%? "}
+      secondInput --> verification{" 
+      Nota >= 50? 
+      E 
+      Frequência >= 75%? 
+      "}
       verification --> |Sim| A[/ Aprovado /]
       verification --> |Não| B[/ Reprovado /]
       A --> finish([ Fim ])
@@ -48,7 +52,13 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start(( Início )) --> firstInput[\ Digite o Primeiro número \] 
       firstInput --> secondInput[\ Digite o Segundo número \] 
-      secondInput --> sum[ Resultado \n = \n Primeiro número \n + \n Segundo número]
+      secondInput --> sum[ 
+         Resultado 
+         = 
+         Primeiro número
+         + 
+         Segundo número
+      ]
       sum --> output[/ Resultado /] --> finish([ Fim ])
    ```
    
@@ -70,7 +80,11 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start(( Início )) --> input[\ Digite a sua Idade \]
       input --> secondInput[\" Tem Título de eleitor(S/N)? "\]
-      secondInput --> verification{ Idade >= 16? \nE\n Título de eleitor === S? }
+      secondInput --> verification{ 
+         Idade >= 16?
+         E
+         Título de eleitor === S? 
+      }
       verification --> | Sim | A[/ Você pode votar /]
       verification --> | Não | B[/ Você não pode votar /]
       A --> finish([ Fim ])
@@ -83,7 +97,11 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    flowchart TD
       start(( Início )) --> firstInput[\ Digite o primeiro número \]
       firstInput --> secondInput[\ Digite o segundo número \]
-      secondInput --> verification{ Primeiro número \n>\n Segundo número? }
+      secondInput --> verification{ 
+         Primeiro número 
+         > 
+         Segundo número? 
+         }
       verification --> | Sim | A[/ O Primeiro número é o maior entre ambos/]
       verification --> | Não | B[/ O Segundo número é o maior entre ambos/]
       A --> finish([ Fim ])
@@ -97,9 +115,17 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
       start(( Início )) --> firstInput[\ Digite n1 \]
       firstInput --> secondInput[\ Digite n2 \]
       secondInput --> thirdInput[\ Digite n3 \] 
-      thirdInput --> verification{ n1 > n2? \nE\n n1 > n3? }
+      thirdInput --> verification{ 
+         n1 > n2? 
+         E
+         n1 > n3? 
+      }
       verification --> | Sim | A[/ O n1 é o maior entre os números /]
-      verification --> | Não | secondVerification{ n2 > n1 \nE\n n2 > n3? }
+      verification --> | Não | secondVerification{
+         n2 > n1
+         E
+         n2 > n3? 
+      }
       secondVerification --> | Sim | B[/ O n2 é o maior entre os números /]
       secondVerification --> | Não | C[/ O n3 é o maior entre os números /]
       A --> finish([ Fim ])
@@ -112,7 +138,10 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    ```mermaid
    flowchart TD
       start(( Início )) --> input[\ Digite n \]
-      input --> A[ i = 1 \n fatorial = 1 ]
+      input --> A[ 
+         i = 1 
+         fatorial = 1 
+      ]
       A --> B[ fatorial = fatorial * i]
       B --> C[ i = i + 1 ]
       C --> verification{ i <= n }
