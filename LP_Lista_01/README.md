@@ -122,15 +122,22 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
       }
       verification --> | Sim | A[/ O n1 é o maior entre os números /]
       verification --> | Não | secondVerification{
-         n2 > n1
+         n2 > n1?
          E
          n2 > n3? 
       }
       secondVerification --> | Sim | B[/ O n2 é o maior entre os números /]
-      secondVerification --> | Não | C[/ O n3 é o maior entre os números /]
+      secondVerification --> | Não | thirdVerification{ 
+         n3 > n1?
+         E
+         n3 > n2?
+      }
+      thirdVerification --> | Sim | C[/ O n3 é o maior entre os números /]
+      thirdVerification --> | Não | D[/ Todos os números possuem o mesmo valor /]
       A --> finish([ Fim ])
       B --> finish
       C --> finish
+      D --> finish
    ```
    
 8. Construa um fluxograma para calcular o fatorial de um número fornecido pelo usuário.
