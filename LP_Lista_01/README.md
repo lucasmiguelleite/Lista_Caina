@@ -151,7 +151,7 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
       ]
       A --> B[ fatorial = fatorial * i]
       B --> C[ i = i + 1 ]
-      C --> verification{ i <= n }
+      C --> verification{ i <= n? }
       verification --> | Sim | B
       verification --> | Não | D[/ fatorial /]
       D --> finish([ Fim ])
@@ -190,9 +190,9 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
       if2 --> | Sim | B[ divisor = divisor + 1 ]
       if2 --> | Não | C[ valor = valor + 1 ]
       B --> C
-      C --> if3{ valor <= n }
+      C --> if3{ valor <= n? }
       if3 --> | Sim | if2
-      if3 --> | Não | if4{ divisor == 2 }
+      if3 --> | Não | if4{ divisor == 2? }
       if4 --> | Sim | D[/ É primo /]
       if4 --> | Não | E[/ Não é primo /]
       D --> finish
