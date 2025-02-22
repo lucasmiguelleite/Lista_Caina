@@ -144,8 +144,10 @@ Para mais informações acesse [Aula 01: Fluxogramas.](https://www.notion.so/cai
    
    ```mermaid
    flowchart TD
-      start(( Início )) --> input[\ Digite n \]
-      input --> A[ 
+      start(( Início )) --> input[\" Digite n (Número maior que zero) "\]
+      input --> if{ n < 0? }
+      if --> | Sim | input 
+      if --> | Não | A[ 
          i = 1 
          fatorial = 1 
       ]
