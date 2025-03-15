@@ -34,13 +34,14 @@ Para mais informações acesse [Aula 03: Fluxogramas.](https://cainaantunes.noti
 
 9. Ler uma medida de distância em quilômetros e converter 
 para milhas.
+
 10. Ler uma medida de distância em milhas e converter para quilômetros.
 
-11. Entrar com o valor de temperatura em graus Celsius e exibir a temperaturacorrespondente em graus Fahrenheit.
+11. Entrar com o valor de temperatura em graus Celsius e exibir a temperatura correspondente em graus Fahrenheit.
 
 12. Ler duas notas N1 e N2 e exibir a média. 
 
-      >Obs.: N1 tem peso 1 e N2 tem peso 2 e resultadodeve estar entre 0 e 10.
+      >Obs.: N1 tem peso 1 e N2 tem peso 2 e resultado deve estar entre 0 e 10.
 
 13. Receber o raio e um círculo e calcular sua área.
 
