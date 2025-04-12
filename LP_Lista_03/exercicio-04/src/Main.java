@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static int menu(){
+    public static int menu() {
         int optionSelected;
 
         Scanner in = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("\nSelecione uma opção: ");
         optionSelected = in.nextInt();
 
-        if(optionSelected != 1 && optionSelected != 2){
+        if (optionSelected != 1 && optionSelected != 2) {
             System.out.println("Opção Inválida, Selecione uma opção válida\n");
             return menu();
         }
@@ -28,13 +28,12 @@ public class Main {
 
         optionSelected = menu();
 
-        if (optionSelected == 1){
+        if (optionSelected == 1) {
             System.out.println("Informe a primeira nota de 0 a 10: ");
             n1 = in.nextDouble();
 
             System.out.println("Informe a segunda nota de 0 a 10: ");
-        }
-        else{
+        } else {
             System.out.println("Informe a primeira nota de 0 a 100: ");
             n1 = in.nextDouble();
 
@@ -47,7 +46,7 @@ public class Main {
         System.out.println("\nMédia: " + mean);
         System.out.println("Situação: Em Recuperação\n");
 
-        if (optionSelected == 1 && mean < 5){
+        if (optionSelected == 1 && mean < 5) {
             System.out.println("Informe a nota da prova de recuperação de 0 a 10: ");
             n3 = in.nextDouble();
 
@@ -56,12 +55,10 @@ public class Main {
 
             if (mean < 5) {
                 System.out.println("Situação: Reprovado");
-            }
-            else {
+            } else {
                 System.out.println("Situação: Aprovado");
             }
-        }
-        else if (optionSelected == 2 && mean < 50){
+        } else if (optionSelected == 2 && mean < 50) {
             System.out.println("Informe a nota da prova de recuperação de 0 a 100: ");
             n3 = in.nextDouble();
 
@@ -70,12 +67,10 @@ public class Main {
 
             if (mean < 50) {
                 System.out.println("Situação: Reprovado");
-            }
-            else {
+            } else {
                 System.out.println("Situação: Aprovado");
             }
-        }
-        else {
+        } else {
             System.out.println("Situação: Aprovado");
         }
 
