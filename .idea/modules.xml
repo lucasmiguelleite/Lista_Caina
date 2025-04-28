@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_01/Exercicio_01.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_01/Exercicio_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_02/Exercicio_02.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_02/Exercicio_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_03/Exercicio_03.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_03/Exercicio_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_04/Exercicio_04.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_04/Exercicio_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_05/Exercicio_05.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_05/Exercicio_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_06/Exercicio_06.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_06/Exercicio_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Listas de Exercícios.iml" filepath="$PROJECT_DIR$/.idea/Listas de Exercícios.iml" />
       <module fileurl="file://$PROJECT_DIR$/LP_Lista_03/exercicio-01/exercicio-01.iml" filepath="$PROJECT_DIR$/LP_Lista_03/exercicio-01/exercicio-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/LP_Lista_03/exercicio-02/exercicio-02.iml" filepath="$PROJECT_DIR$/LP_Lista_03/exercicio-02/exercicio-02.iml" />
