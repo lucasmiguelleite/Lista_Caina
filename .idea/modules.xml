@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_05/Exercicio-01/Exercicio-01.iml" filepath="$PROJECT_DIR$/LP_Lista_05/Exercicio-01/Exercicio-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_05/Exercicio-02/Exercicio-02.iml" filepath="$PROJECT_DIR$/LP_Lista_05/Exercicio-02/Exercicio-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_05/Exercicio-03/Exercicio-03.iml" filepath="$PROJECT_DIR$/LP_Lista_05/Exercicio-03/Exercicio-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LP_Lista_05/Exercicio-04/Exercicio-04.iml" filepath="$PROJECT_DIR$/LP_Lista_05/Exercicio-04/Exercicio-04.iml" />
       <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_01/Exercicio_01.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_01/Exercicio_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_02/Exercicio_02.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_02/Exercicio_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/LP_Lista_04/Exercicio_03/Exercicio_03.iml" filepath="$PROJECT_DIR$/LP_Lista_04/Exercicio_03/Exercicio_03.iml" />
